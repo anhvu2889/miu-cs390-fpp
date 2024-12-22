@@ -1,55 +1,21 @@
+# MIU - FPP (Fundamentals of Programming and Problem Solving) Course Assignments
 
-# Computer Professionals Program at MIU (FPP - Fundamentals of Programming and Problem Solving)
-
-## Course Overview
-
-The **FPP (Fundamentals of Programming and Problem Solving)** course provides a focused program for enhancing programming and analytical skills in five key areas:
-
-1.  **Problem Solving**
-2.  **Data Structures**
-3.  **Object-Oriented Programming (OOP)**
-4.  **The Java Programming Language**
-5.  **Recursion in Java Programs**
-
-These topics serve as essential prerequisites for courses in the graduate program in Computer Science.
+This repository contains assignments and coursework for the **FPP (Fundamentals of Programming and Problem Solving)** course, part of the graduate Computer Science program at **Maharishi International University (MIU)**.
 
 ----------
 
-## Topics Covered
+## Course Overview
 
-The course covers the following topics:
+The **FPP** course focuses on enhancing programming and analytical skills, covering topics such as:
 
-1.  **Java Programming Basics**
-    
-    -   Syntax and Semantics
-    -   Variables, Data Types, and Operators
-    -   Control Structures (Conditionals and Loops)
-2.  **Object-Oriented Design and Implementation**
-    
-    -   Classes and Objects
-    -   Inheritance, Polymorphism, and Encapsulation
-    -   Abstract Classes and Interfaces
-3.  **Data Structures**
-    
-    -   Lists, Stacks, and Queues
-    -   Binary Search Trees
-    -   Hash Tables and Sets
-4.  **Exception Handling**
-    
-    -   Exception Hierarchy
-    -   Custom Exceptions
-5.  **File Input/Output and Streams**
-    
-    -   Reading and Writing Files
-    -   Using Streams for Data Processing
-6.  **JDBC (Java Database Connectivity)**
-    
-    -   Connecting Java Applications to Databases
-    -   Query Execution and Result Handling
-7.  **Recursion in Java**
-    
-    -   Recursive Algorithms
-    -   Applications in Problem Solving
+- Elements of Java programming
+- Object-oriented design and implementation
+- Data structures (including lists, stacks, queues, binary search trees, hash tables, and sets)
+- The exception hierarchy
+- File I/O and streams
+- JDBC (Java Database Connectivity)
+
+These topics serve as essential prerequisites for advanced courses in the graduate program.
 
 ----------
 
@@ -68,7 +34,6 @@ The course covers the following topics:
     
     ```bash
     git clone https://github.com/anhvu2889/miu-cs390-fpp
-    
     ```
     
 2.  Open the project in your preferred IDE.
@@ -77,16 +42,13 @@ The course covers the following topics:
     ```bash
     javac src/<file-name>.java
     java src/<file-name>
-    
     ```
     
 4.  Execute unit tests:
     
     ```bash
     java -cp .:junit-platform-console-standalone.jar org.junit.platform.console.ConsoleLauncher --scan-classpath
-    
     ```
-    
 
 ----------
 
@@ -99,8 +61,4 @@ Contributions are welcome! Follow these steps to contribute:
 3.  Commit your changes with a descriptive message.
 4.  Submit a pull request for review.
 
-----------
 
-## Contact
-
-For questions or suggestions, please reach out to the course instructor or create an issue in the repository.
